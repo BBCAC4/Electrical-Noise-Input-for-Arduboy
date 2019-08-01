@@ -9,9 +9,9 @@ the usb connector and the micro controller on the plastic case.
 ### Functions
 It contains:
 ```
-void ENIDpadSetup(); //for the [0, 1, 2, 3] pins, call just oncce in Startup()
-uint8_t ENIPinRead(); //returns the noise value of the pin
-uint8_t ENIValue(); //returns the difference between the average and the noise
+void ENIDpadSetup(); //for the [0, 1, 2, 3] pins, call just once in Startup()
+uint16_t ENIPinRead(); //returns the noise value of the pin
+uint16_t ENIValue(); //returns the difference between the average and the noise
 bool ENIPressed(uint8_t sensibility); //returns true when ENIValue() is greater than the sensibility
 ```
 

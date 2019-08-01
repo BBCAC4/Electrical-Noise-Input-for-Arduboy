@@ -1,4 +1,4 @@
-//Eletronical Noise Input (ENI) by BBCAC4
+//Electrical Noise Input (ENI) by BBCAC4
 #pragma once
 
 #define ANPIN 5

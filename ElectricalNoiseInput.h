@@ -1,5 +1,4 @@
 //Electrical Noise Input (ENI) by BBCAC4
-#pragma once
 
 #define ANPIN 5
 #define frameRefresh 30
@@ -10,7 +9,7 @@ uint8_t tmr;
 //if you want to use the pins of the d-Pad[0, 1, 2, 3]
 //put this function in the Setup(); while
 //the buttons corresponding to the pins
-//are held down it won't return any ENI
+//are held down it won't return any value
 void ENIDpadSetup()
 {
   pinMode(PIN_UP_BUTTON, INPUT); 
